@@ -121,10 +121,10 @@ namespace app
 
 				string key;
 
-				Console.Write("\nTo exit press 'e' and then press enter, to continue press other key and then press enter: ");
+				Console.Write("\nTo exit write 'exit' or 'Exit' and then press enter, to continue press other key and then press enter: ");
 				key = Console.ReadLine();
 
-				if (key == "e")
+				if (key == "Exit" ||key == "exit")
 				{
 					//El usuario quiere salir
 					endApp = true;
