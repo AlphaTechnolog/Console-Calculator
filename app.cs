@@ -82,7 +82,7 @@ namespace app
 						ConvertedNum2 = Convert.ToDouble(num2),
 						Result = ConvertedNum1 * ConvertedNum2;
 
-					Console.WriteLine("\n" + num1 + " + " + num2 + " X " + Result);
+					Console.WriteLine("\n" + num1 + " X " + num2 + " = " + Result);
 				}
 				else if (option == "D" || option == "d")
 				{
